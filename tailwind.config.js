@@ -6,6 +6,9 @@ module.exports = {
       fontFamily : {
         'raleway' : ['Raleway'],
       },
+      backgroundImage: {
+        'bgimage': "url('./images/bg-mobile.png')",
+       },
     },
   },
   variants: {

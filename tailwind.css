@@ -17789,6 +17789,10 @@ video {
   background-image: linear-gradient(to top left, var(--tw-gradient-stops));
 }
 
+.bg-bgimage {
+  background-image: url('./images/bg-mobile.png');
+}
+
 .from-transparent {
   --tw-gradient-from: transparent;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -49372,6 +49376,10 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .sm\:bg-bgimage {
+    background-image: url('./images/bg-mobile.png');
+  }
+
   .sm\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -80601,6 +80609,10 @@ video {
 
   .md\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .md\:bg-bgimage {
+    background-image: url('./images/bg-mobile.png');
   }
 
   .md\:from-transparent {
@@ -111834,6 +111846,10 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .lg\:bg-bgimage {
+    background-image: url('./images/bg-mobile.png');
+  }
+
   .lg\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -143065,6 +143081,10 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .xl\:bg-bgimage {
+    background-image: url('./images/bg-mobile.png');
+  }
+
   .xl\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -174294,6 +174314,10 @@ video {
 
   .\32xl\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .\32xl\:bg-bgimage {
+    background-image: url('./images/bg-mobile.png');
   }
 
   .\32xl\:from-transparent {
