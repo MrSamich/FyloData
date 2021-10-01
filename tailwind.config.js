@@ -20,6 +20,8 @@ module.exports = {
        padding: {
         '127px': '7.938rem',
         '25px': '1.563rem',
+        '41px': '2.563rem',
+        '33px': '2.063rem',
        },
     },
   },
