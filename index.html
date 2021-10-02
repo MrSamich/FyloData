@@ -18,8 +18,10 @@
 
 </head>
 
-<body class="font-raleway bg-bgimage bg-cover flex justify-start justify-center items-center ">
-  <div class="flex-col justify-center items-center  pt-127px mr-6 pl-25px">
+<body class="font-raleway bg-bgimage bg-cover flex md:flex-row justify-start justify-center items-center ">
+  <!-- container -->
+  <div class="laptop:flex pt-127px mr-6 pl-25px">
+    <!-- top div -->
     <div class=" rounded-tl-10px rounded-tr-100px rounded-bl-10px rounded-br-10px pl-41px pt-10 mb-4 bg-color1">
       <img src="./images/logo.svg" alt="">
       <ol class="flex justify-center justify-between gap-4 pb-10 pt-33px pr-108px">
@@ -28,7 +30,8 @@
         <li class="rounded-lg bg-color2 py-4 px-3"><img src="./images/icon-upload.svg" alt=""></li>
       </ol>
     </div>
-    <div class="flex flex-col items-center bg-color1 pt-8 rounded-10px">
+    <!-- bottom div -->
+    <div class=" flex flex-col items-center bg-color1 pt-8 rounded-10px">
       <div>
         <h2 class="text-color3 font-normal leading-4 font-sm pb-4">You’ve used <span
             class="text-color3 text-sm leading-4 font-semibold">815 GB</span> of your storage</h2>
@@ -42,12 +45,11 @@
           <p class="font-raleway text-color3 font-semibold text-xs leading-lh14px">1000 GB</p>
         </div>
       </div>
-      <div class="flex justify-center items-center transform translate-y-8 bg-white px-6 rounded-10px py-4 mx-73px ">
+      <div class="laptop:display-none flex justify-center items-center transform translate-y-8 bg-white px-6 rounded-10px py-4 mx-73px ">
         <p class="text-10px font-semibold leading-10 pr-9px">185</p>
         <p class="text-xs font-semibold text-color2 opacity-50 uppercase leading-lh14px tracking-1px">gb left</p>
       </div>
     </div>
-    
   </div>
 
 </body>

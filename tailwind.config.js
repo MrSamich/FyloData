@@ -51,6 +51,16 @@ module.exports = {
         'color2': '#0C122C',
         'color3': '#DBD9FF',
        },
+       screens: {
+        'phone': '300px',
+        // => @media (min-width: 640px) { ... }
+  
+        'laptop': '1024px',
+        // => @media (min-width: 1024px) { ... }
+  
+        'desktop': '1440px',
+        // => @media (min-width: 1280px) { ... }
+      },
     },
   },
   variants: {
